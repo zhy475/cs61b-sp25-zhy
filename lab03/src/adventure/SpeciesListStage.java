@@ -101,6 +101,6 @@ public class SpeciesListStage implements AdventureStage {
                 copy.remove(o);
             }
         }
-        return similarObjects / listOne.size();
+        return listOne.size() ==0?0:similarObjects / listOne.size();
     }
 }
