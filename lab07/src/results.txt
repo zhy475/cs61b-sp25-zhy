@@ -1,0 +1,11 @@
+What would you like L to be?: 10
+
+Enter # strings to insert into ULLMap: 10000
+ULLMap: 0.30 sec
+
+Enter # strings to insert into your MyHashMap: 10000
+MyHashMap: 0.02 sec
+
+Enter # strings to insert into Java's HashMap: 10000
+Java's Built-in HashMap: 0.00 sec
+MyHashMap 的速度与 Java 内置的 HashMap 非常接近，远远快于 ULLMap
